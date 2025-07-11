@@ -1,0 +1,195 @@
+:root {
+  // --primary-color: var(--primary-color-6); /* 品牌/按钮/链接/可操作色 */
+  // --primary-color-1: #edf3ff; /* 选中子级 */
+  // --primary-color-1_5: #dde9ff; /* 选中时hover */
+  // --primary-color-2: #cddeff; /* 选中状态、选中（父级）*/
+  // --primary-color-3: #adc8ff;
+  // --primary-color-4: #8db3ff;
+  // --primary-color-5: #6c9dff;
+  // --primary-color-6: #4c88ff;
+  // --primary-color-7: #3e6fd1;
+  // --primary-color-8: #3157a3;
+  // --primary-color-9: #233e75;
+  // --primary-color-10: #152647;
+
+  --primary-color: var(--primary-color-6);
+  --primary-color-1: #E5F8F8;
+  --primary-color-1_5: #D2F4F4;
+  --primary-color-2: #C5F3ED;
+  --primary-color-3: #8ED6C0;
+  --primary-color-4: #8db3ff;
+  --primary-color-5: #33B19D;
+  --primary-color-6: #009D85;
+  --primary-color-7: #007E6A;
+  --primary-color-8: #3157a3;
+  --primary-color-9: #233e75;
+  --primary-color-10: #152647;
+  --el-color-primary-light-5: #8ed6c0;
+
+  --bg-selector-primary: var(--primary-color-6) !important;
+  --bg-selector-secondary: #009D85b3 !important;
+
+  --tree-view-node-background-selected: var(--primary-color-2);
+  --code-analysis-helper-item-background: var(--primary-color-1);
+  --el-color-primary-light-9: var(--primary-color-1) !important;
+  --material-item-border-color-selected: var(--primary-color-6) !important;
+  --style-panel-positionbg-background-hover: var(--primary-color-1) !important;
+
+  .header-dark {
+    --primary-color: #009D85 !important;
+    --primary-color-5: #33B19D !important;
+
+    .theme-button {
+      color: var(--primary-color);
+    }
+  }
+
+  .theme-link {
+    color: var(--primary-color-6);
+  }
+
+  .theme-outline {
+    outline-color: var(--primary-color-6) !important;
+  }
+
+  .theme-background {
+    background-color: var(--primary-color-6) !important;
+  }
+
+  .theme-designer-title {
+    background: var(--primary-color-6);
+  }
+
+  .theme-fackback-operators {
+    > * {
+      background-color: var(--primary-color-3) !important;
+
+      &:hover {
+        background-color: var(--primary-color-6) !important;
+      }
+    }
+  }
+
+  .theme-designer-operators {
+    --bg-selector-primary: var(--primary-color);
+    --bg-selector-secondary: var(--primary-color-5);
+
+    > * {
+      &[disabled=true] {
+        background: var(--primary-color-3);
+      }
+    }
+  }
+
+  .theme-path {
+    &[stroke="#4e75ec"],
+    &[stroke="#4E75EC"] {
+      stroke: var(--primary-color-6);
+    }
+  }
+
+  .theme-badge {
+    color: var(--el-color-white);
+    background-color: var(--primary-color-6);
+  }
+
+  .u-conolse-theme {
+    --blue: var(--primary-color);
+  }
+
+  .theme-button {
+    --el-button-active-border-color: var(--primary-color);
+    --el-button-text-color: var(--primary-color);
+    --el-button-border-color: var(--primary-color);
+    --el-button-hover-text-color: var(--primary-color);
+    --el-button-hover-border-color: var(--primary-color);
+    --el-button-hover-bg-color: var(--primary-color-1) !important;
+
+    color: var(--el-button-text-color) !important;
+
+    .icon {
+      fill: var(--primary-color);
+    }
+
+    &:active {
+      --el-button-active-border-color: var(--primary-color-7);
+      --el-button-text-color: var(--primary-color-7);
+      --el-button-border-color: var(--primary-color-7);
+      --el-button-hover-text-color: var(--primary-color-7);
+      --el-button-hover-border-color: var(--primary-color-7);
+    }
+  }
+
+  .theme-button-primary {
+    --el-button-text-color: var(--el-color-white);
+    --el-button-border-color: var(--primary-color);
+
+    --el-button-highlight-color: var(--primary-color) !important;
+    --el-button-highlight-color-hover: var(--primary-color-5) !important;
+    --el-button-highlight-color-disabled: var(--primary-color-3) !important;
+
+    .icon {
+      fill: var(--el-color-white);
+    }
+  }
+
+  .theme-button-highlight {
+    --primary-color: #EEA02A;
+    --primary-color-3: #FFCD6D;
+    --primary-color-6: #E9872E;
+
+    --el-button-bg-color: var(--primary-color);
+    --el-button-text-color: var(--el-color-white);
+    --el-button-border-color: var(--primary-color);
+
+    --el-button-hover-bg-color: var(--primary-color-3);
+    --el-button-hover-border-color: var(--primary-color-3);
+
+    --el-button-active-bg-color: var(--primary-color-6);
+    --el-button-active-border-color: var(--primary-color-6);
+
+    .icon {
+      fill: var(--el-color-white);
+    }
+  }
+
+  .theme-left-categories {
+    --designer-navbar-tab-background-hover: var(--primary-color-1);
+  }
+
+  .theme-inner-tag {
+    color: var(--primary-color) !important;
+    background-color: var(--primary-color-1) !important;
+  }
+
+  .theme-img-box {
+    &:hover {
+      border-color: var(--primary-color) !important;
+    }
+  }
+
+  .theme-border-color {
+    border-color: var(--primary-color) !important;
+  }
+
+  .theme-document, .theme-filter {
+    filter: hue-rotate(270deg);
+  }
+
+  .theme-version-assistant-select-root {
+    &[opened='true'] {
+      border-color: var(--primary-color) !important;
+    }
+  }
+
+  .theme-file-storage-title-default {
+    color: var(--primary-color) !important;
+    background-color: var(--primary-color-1) !important;
+  }
+
+  .theme-question-item {
+    &:hover {
+      background-color: var(--primary-color-1) !important;
+    }
+  }
+}
