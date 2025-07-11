@@ -4,11 +4,11 @@
 
 ```
 ide-plugin-materials
-├─ packages                         # 存放通用插件
-  ├─ cw                             # 平台插件(包括旧版本的平台内置/定制插件)
-  ├─ cust                           # 客户定制化插件
-  ├─ demo                           # 示例插件
-├─ README.md			            # 说明文档
+├─ packages                                     # 存放通用插件
+  ├─ cw                                         # 平台插件(包括旧版本的平台内置/定制插件)
+  ├─ cust                                       # 客户定制化插件
+  ├─ demo                                       # 示例插件
+├─ README.md                                    # 说明文档
 ```
 
 ## IDE 插件开发文档

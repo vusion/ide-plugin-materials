@@ -1,0 +1,9 @@
+{
+  "default": false,
+  "symbol": "test-plugin",
+  "version": "1.0.0",
+  "ideVersion": "3.10",
+  "name": "test-plugin 名称",
+  "description": "test-plugin 描述",
+  "config": "{}"
+}
