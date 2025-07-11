@@ -1,0 +1,32 @@
+:root {
+  // head
+  .header {
+    --designer-head-background: #005EBA !important;
+
+    [class^="top-area_right_"] {
+      [class^="s-search_searchBtn_"] {
+        color: #fff !important;
+      }
+      .el-button {
+        color: #fff !important;
+      }
+
+      .el-dropdown .icon {
+        color: #fff !important;
+      }
+    }
+
+    [class^="s-back_titleContent_"] .icon {
+      color: #fff !important;
+    }
+
+    .historyBox {
+      .s-others-icon[button] {
+        color: #fff !important;
+      }
+      .s-others-icon[button][disabled] {
+        color: #4c4c4c !important;
+      }
+    }
+  }
+}
