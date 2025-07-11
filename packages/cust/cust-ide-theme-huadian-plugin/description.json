@@ -1,0 +1,9 @@
+{
+  "default": true,
+  "symbol": "cust-ide-theme-huadian-plugin",
+  "version": "1.0.0",
+  "ideVersion": "3.10",
+  "name": "IDE主题插件",
+  "description": "该插件支持更改设计器主题色与功能图标，以满足用户对IDE界面的个性化需求",
+  "config": "{}"
+}

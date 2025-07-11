@@ -1,0 +1,9 @@
+{
+  "default": true,
+  "symbol": "cust-component-panel-category-huadian-plugin",
+  "version": "1.0.0",
+  "ideVersion": "3.10",
+  "name": "页面组件面板个性化插件",
+  "description": "该插件支持更改页面组件面板的顶部分类和组件类型等",
+  "config": "{}"
+}
