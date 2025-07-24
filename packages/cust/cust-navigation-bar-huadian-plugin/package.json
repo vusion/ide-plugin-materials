@@ -1,0 +1,40 @@
+{
+  "name": "cust-navigation-bar-huadian-plugin",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "clear": "rm -rf dist",
+    "dev": "webpack-dev-server --config webpack/webpack.config.dev.js",
+    "build": "npm run clear && webpack --config webpack/webpack.config.prd.js",
+    "release": "npm run build && lcap publish --asset-target plugin"
+  },
+  "dependencies": {
+    "lodash": "4.17.21",
+    "opp-vue": "^1.0.2"
+  },
+  "devDependencies": {
+    "archiver": "^7.0.1",
+    "css-loader": "6.10.0",
+    "github-markdown-css": "^5.8.1",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "markdown-loader": "^8.0.0",
+    "postcss-loader": "8.1.1",
+    "sass": "1.85.1",
+    "sass-loader": "16.0.5",
+    "source-map-loader": "5.0.0",
+    "style-loader": "3.3.4",
+    "url-loader": "4.1.1",
+    "vue-loader": "17.4.2",
+    "vue-style-loader": "4.1.3",
+    "vue-template-compiler": "2.6.14",
+    "webpack": "5.90.0",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "4.15.1",
+    "webpack-merge": "6.0.0"
+  },
+  "peerDependencies": {
+    "element-plus": ">=2.0.0",
+    "vue": ">=3.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "default": true,
+  "symbol": "cust-navigation-bar-huadian-plugin",
+  "version": "1.0.0",
+  "ideVersion": "3.10",
+  "name": "导航栏个性化插件",
+  "description": "控制导航栏中组件的显隐",
+  "config": "{}"
+}
