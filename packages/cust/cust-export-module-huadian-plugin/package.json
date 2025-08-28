@@ -1,6 +1,6 @@
 {
-  "name": "cust-navigation-bar-huadian-plugin",
-  "version": "1.0.2",
+  "name": "cust-export-module-huadian-plugin",
+  "version": "1.0.0",
   "main": "./src/index.js",
   "scripts": {
     "clear": "rm -rf dist",
@@ -9,8 +9,7 @@
     "release": "npm run build && lcap publish --asset-target plugin"
   },
   "dependencies": {
-    "lodash": "4.17.21",
-    "opp-vue": "^1.0.2"
+    "lodash": "4.17.21"
   },
   "devDependencies": {
     "archiver": "^7.0.1",

@@ -1,0 +1,9 @@
+{
+  "default": true,
+  "symbol": "cust-export-module-huadian-plugin",
+  "version": "1.0.0",
+  "ideVersion": "3.10",
+  "name": "cust-export-module-huadian-plugin 名称",
+  "description": "cust-export-module-huadian-plugin 描述",
+  "config": "{}"
+}
