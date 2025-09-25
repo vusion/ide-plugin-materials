@@ -1,14 +1,15 @@
 {
-  "name": "boe-ide-theme-plugin",
-  "version": "1.0.1",
+  "name": "cust_aux_data_model_plugin",
+  "version": "1.0.0",
   "main": "./src/index.js",
   "scripts": {
     "clear": "rm -rf dist",
     "dev": "webpack-dev-server --config webpack/webpack.config.dev.js",
-    "build": "npm run clear && webpack --config webpack/webpack.config.prd.js",
+    "build2": "npm run clear && webpack --config webpack/webpack.config.prd.js",
     "release": "npm run build && lcap publish --asset-target plugin"
   },
   "dependencies": {
+    "axios": "^1.11.0",
     "lodash": "4.17.21"
   },
   "devDependencies": {
@@ -19,6 +20,7 @@
     "html-webpack-plugin": "^5.6.3",
     "markdown-loader": "^8.0.0",
     "postcss-loader": "8.1.1",
+    "prettier": "^3.6.2",
     "sass": "1.85.1",
     "sass-loader": "16.0.5",
     "source-map-loader": "5.0.0",

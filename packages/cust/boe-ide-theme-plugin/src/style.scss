@@ -1,7 +1,7 @@
 :root {
   // head
   .header {
-    --designer-head-background: #005EBA !important;
+    --designer-head-background: #005eba !important;
 
     [class^="top-area_right_"] {
       [class^="s-search_searchBtn_"] {
@@ -28,5 +28,14 @@
         color: #4c4c4c !important;
       }
     }
+
+    [class^="top-area_left_"] {
+      [class^="s-select-branch_dropdownTrigger"] {
+        width: 150px !important;
+      }
+    }
+  }
+  [class^="s-select-branch_selectItem_"] {
+    width: 150px !important;
   }
 }

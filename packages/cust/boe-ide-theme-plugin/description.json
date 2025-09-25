@@ -1,7 +1,7 @@
 {
   "default": true,
   "symbol": "boe-ide-theme-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "ideVersion": "3.10",
   "name": "boe-ide-theme-plugin",
   "description": "自定义主题插件",

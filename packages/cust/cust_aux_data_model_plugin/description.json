@@ -1,0 +1,9 @@
+{
+  "default": true,
+  "symbol": "cust_aux_data_model_plugin",
+  "version": "1.0.0",
+  "ideVersion": "3.10",
+  "name": "数据建模插件",
+  "description": "数据建模插件",
+  "config": "{}"
+}
