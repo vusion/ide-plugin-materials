@@ -1,0 +1,9 @@
+{
+  "default": true,
+  "symbol": "cust-huadian-export-application-plugin",
+  "version": "1.0.0",
+  "ideVersion": "4.4",
+  "name": "自定义导出应用插件",
+  "description": "自定义导出应用插件",
+  "config": "{}"
+}
