@@ -1,0 +1,9 @@
+{
+  "default": true,
+  "symbol": "cust-rsj-code-push",
+  "version": "1.0.0",
+  "ideVersion": "3.14",
+  "name": "cust-rsj-code-push",
+  "description": "推送代码到GIT仓库",
+  "config": "{}"
+}
