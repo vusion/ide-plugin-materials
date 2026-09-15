@@ -1,0 +1,9 @@
+{
+  "default": false,
+  "symbol": "cust-htyw-sync-mirror",
+  "version": "1.0.0",
+  "ideVersion": "4.4.1",
+  "name": "cust-rsj-code-push",
+  "description": "同步镜像",
+  "config": "{}"
+}
